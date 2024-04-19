@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>CSS 盒模型、背景与文字排版示例</title>  
+<style>  
+    /* CSS 盒模型示例 */  
+    .box-model {  
+        width: 300px; /* 内容宽度 */  
+        padding: 20px; /* 内边距 */  
+        border: 5px solid #000; /* 边框 */  
+        margin: 10px; /* 外边距 */  
+        background-color: #f5f5f5; /* 背景色 */  
+        box-sizing: border-box; /* 盒模型类型，包括边框和内边距 */  
+    }  
+  
+    /* 背景示例 */  
+    .background {  
+        background-image: url('path-to-your-image.jpg'); /* 背景图片路径 */  
+        background-repeat: no-repeat; /* 不重复背景图片 */  
+        background-position: center center; /* 背景图片居中 */  
+        background-size: cover; /* 背景图片覆盖整个容器 */  
+        padding: 50px; /* 内边距 */  
+        color: #fff; /* 文本颜色 */  
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文本阴影 */  
+    }  
+  
+    /* 文字排版示例 */  
+    .typography {  
+        font-family: 'Arial', sans-serif; /* 字体族 */  
+        font-size: 18px; /* 字体大小 */  
+        font-weight: bold; /* 字体粗细 */  
+        line-height: 1.6; /* 行高 */  
+        text-align: justify; /* 文本对齐方式 */  
+        color: #333; /* 文本颜色 */  
+        letter-spacing: 0.5px; /* 字符间距 */  
+        word-spacing: 2px; /* 单词间距 */  
+        text-decoration: underline; /* 文本装饰，例如下划线 */  
+        text-transform: uppercase; /* 文本转换，例如大写 */  
+    }  
+</style>  
+</head>  
+<body>  
+  
+<!-- 盒模型示例 -->  
+<div class="box-model">  
+    这是一个带有盒模型样式的div元素。  
+</div>  
+  
+<!-- 背景示例 -->  
+<div class="background">  
+    这是一个带有背景图片的div元素。你可以看到背景图片是如何被应用并覆盖整个div的。  
+</div>  
+  
+<!-- 文字排版示例 -->  
+<div class="typography">  
+    这是一个带有文字排版样式的段落。你可以看到字体、大小、颜色以及其他的文字排版属性是如何被设置的。  
+</div>  
+  
+</body>  
+</html>
